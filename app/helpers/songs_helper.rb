@@ -4,7 +4,7 @@ module SongsHelper
     if song.artist
       link_to song.artist.name, artist_path(song.artist)
     else
-      link_to 'Add Arist', edit song_path(song)
+      link_to 'Add Arist', edit_song_path(song)
     end
   end
 end
